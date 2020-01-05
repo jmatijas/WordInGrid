@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <com.josipmatijas.wordingrid.MyGridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alignmentMode="alignMargins"
+        android:background="#ffff88"
+        android:clipToPadding="false"
+        android:columnCount="4"
+        android:columnOrderPreserved="false"
+        android:padding="@dimen/space_half"
+        android:rowCount="4">
+
+        <!-- 1st row -->
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+
+        <!-- 2nd row -->
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+
+        <!-- 3rd row -->
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+
+        <!-- 4th row -->
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+        <com.josipmatijas.wordingrid.MyCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="@dimen/space_half"
+            android:clipToPadding="false"
+            android:padding="@dimen/space_half"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="A"
+                android:textColor="@color/color_dice_text"
+                android:textSize="@dimen/text_size_dice"
+                android:textStyle="bold" />
+
+        </com.josipmatijas.wordingrid.MyCardView>
+
+    </com.josipmatijas.wordingrid.MyGridLayout>
+
+</LinearLayout>
+
+<!-- android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context=".MainActivity"
+tools:showIn="@layout/activity_main"-->
