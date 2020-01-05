@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="color_dice_text">#bf3f3f</color>
+    <!-- color name="colorPrimary">#008577</color -->
+    <color name="colorPrimary">#1D6FB1</color>
+    <!-- color name="colorPrimaryDark">#00574B</color -->
+    <color name="colorPrimaryDark">#114C7C</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="color_dice_text">#114C7C</color>
+    <color name="color_board_background">#eaeaea</color>
+    <color name="color_timer_text">#efefef</color>
 </resources>
