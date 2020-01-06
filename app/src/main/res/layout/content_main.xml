@@ -5,20 +5,24 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="88dp"
     tools:context=".MainActivity"
     tools:showIn="@layout/activity_main"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/color_board_background">
 
     <com.josipmatijas.wordingrid.MyGridLayout
+        android:id="@+id/myGridLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
         android:alignmentMode="alignMargins"
-        android:background="@color/color_board_background"
         android:clipToPadding="false"
         android:columnCount="4"
         android:columnOrderPreserved="false"
         android:padding="@dimen/space_half"
-        android:rowCount="4">
+        android:rowCount="4"
+        android:animateLayoutChanges="true">
 
         <!-- 1st row -->
 
