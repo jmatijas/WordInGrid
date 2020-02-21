@@ -1,4 +1,8 @@
 # WordInGrid
 A famous board game where players aim to find as many words as possible in a grid of dices before time runs out.
+https://i.imgur.com/3xO75RM.gif
 
-![Screen capture](https://www.dropbox.com/s/iqdeuu8l1ok1z4y/wig-record-01.gif?dl=0)
+<img src="images/word-in-game-scrsht-01.png" width="20%">
+<img src="images/word-in-game-scrsht-02.png" width="20%">
+<img src="images/word-in-game-scrsht-03.png" width="20%">
+<img src="images/word-in-game-scrsht-04.png" width="20%">
