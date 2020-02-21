@@ -157,10 +157,7 @@ public class MainActivity extends AppCompatActivity {
             for (int col = 0; col < 4; col++) {
                 View v = mCardViewsGrid[row][col];
                 myGridLayout.removeView(v);
-                int position = 0;
-                if(tempListViews.size() > 0) {
-                    position = rand.nextInt(tempListViews.size());
-                }
+                int position = rand.nextInt(tempListViews.size() + 1);
                 Log.d(TAG, "position: " + position);
                 tempListViews.add(position, v);
             }
